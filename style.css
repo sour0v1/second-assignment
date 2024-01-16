@@ -46,8 +46,80 @@ nav {
 span {
     color: #ff5400;
 }
-.nav-menu .home{
+
+.nav-menu .home {
     color: #ff5400;
     font-weight: 700;
 }
+
 /* Nav bar end */
+/* Banner Section Start */
+.banner {
+    background-image: url(Images/header-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 550px;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0rem 11.6rem 0rem 11.6rem;
+}
+
+.input-container img {
+    width: 1.5rem;
+    width: 1.5rem;
+    color: rgba(19, 19, 24, 0.7);
+    background-color: #FFF;
+    padding: 10px;
+
+}
+
+.banner .banner-title,
+.banner-des {
+    text-align: center;
+}
+
+.banner-title {
+    padding-top: 7.5rem;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-des {
+    padding: 10px 0px 30px 0px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+input,
+button {
+
+    background-color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+.input1 {
+    display: flex;
+}
+button{
+   color: #fff;
+   font-size: 1rem;
+   font-weight: 700;
+   background: #FF5400;
+}
+.input1 .btn{
+    background-color: #FF5400;
+    color: #FFF;
+}
