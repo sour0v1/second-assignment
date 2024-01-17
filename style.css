@@ -459,6 +459,7 @@ select,
     /* newsletter section */
     .newsletter-section {
         flex-direction: column;
+        
     }
 
     .newsletter-container1,
@@ -473,6 +474,7 @@ select,
     .newsletter-container1{
         width: auto;
         padding: 0px;
+        margin-top: 30px;
     }
     .newsletter-container2{
         margin-top: 10px;
