@@ -320,4 +320,28 @@ footer {
         align-items: normal;
     }
     
+    /* choose section */
+    .choose-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hotel, .map, .price {
+        width: auto;
+        height: auto;
+    }
+    /* newsletter section */
+    .newsletter-section{
+        flex-direction: column;
+    }
+    .newsletter-container1{
+        width: auto;
+        text-align: center;
+    }
+    .discount{
+        left: 175px;
+    }
+    /* footer section */
+    .footer-section{
+        width: auto;
+    }
 }
