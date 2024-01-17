@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 1440px;
+    
     margin: 0 auto;
     border: 2px solid chocolate;
 
@@ -22,6 +22,7 @@ nav,
 nav {
     justify-content: space-between;
     align-items: center;
+    margin: auto 1.5rem;
 }
 
 .nav-menu li {
@@ -62,6 +63,7 @@ span {
     height: 550px;
     border-radius: 1rem;
     margin: 0 auto;
+    display: none;
 }
 
 .input-container {
@@ -113,13 +115,145 @@ button {
 .input1 {
     display: flex;
 }
-button{
-   color: #fff;
-   font-size: 1rem;
-   font-weight: 700;
-   background: #FF5400;
+
+button {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #FF5400;
 }
-.input1 .btn{
+
+.input1 .btn {
     background-color: #FF5400;
     color: #FFF;
+}
+
+/* Banner Section end */
+
+/* Choose Section start */
+
+.choose-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 6.25rem;
+}
+
+.choose-title,
+.choose-des,.price {
+    text-align: center;
+}
+
+.hotel,
+.map,
+.price {
+    width: 573px;
+    height: 284px;
+
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 1rem;
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 1rem;
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+.choose-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+.choose-des{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 643px;
+    margin: 0 auto;
+}
+.pri-head{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.pri-des{
+    color: #5A5A5D;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* destination section start */
+.destination-section{
+    margin-top: 6.25rem;
+}
+.mal-indo,.sri-north-kas,.bang-ban{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.mal-indo{
+    margin-top: 3rem;
+}
+/* 
+.maldives{
+    background-image: url(Images/maldives.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 100%;
+}
+.indonesia{
+    background-image: url(Images/indonesia.png);
+    background-repeat: no-repeat;
+}
+.srilanka{
+    background-image: url(Images/srilanka.png);
+    background-repeat: no-repeat;
+}
+.north{
+    background-image: url(Images/north-america.png);
+    background-repeat: no-repeat;
+}
+.kashmir{
+    background-image: url(Images/kashmir.png);
+    background-repeat: no-repeat;
+}
+.bd{
+    background-image: url(Images/bangladesh.png);
+    background-repeat: no-repeat;
+}
+.bandarban{
+    background-image: url(Images/bandarban.png);
+    background-repeat: no-repeat;
+} */
+
+
+/* Media Query Section*/
+@media screen and (max-width:576px) {
+
+    /* banner section */
+    .input-container {
+        flex-direction: column;
+        margin: 0px;
+    }
 }
