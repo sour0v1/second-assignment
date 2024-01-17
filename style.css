@@ -12,6 +12,7 @@ body {
 
 }
 
+
 /* Nav bar start */
 nav,
 .logo,
@@ -23,6 +24,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: auto 1.5rem;
+    display: none;
 }
 
 .nav-menu li {
@@ -66,7 +68,7 @@ span {
 
 .tour-container1 {
     width: 577px;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 ul li,
@@ -104,6 +106,7 @@ ul li,
 /* destination section start */
 .destination-section {
     margin-top: 6.25rem;
+    margin-bottom: 60px;
 }
 
 .mal-indo,
@@ -130,7 +133,7 @@ ul li,
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     margin-top: 6.25rem;
 }
 
@@ -215,6 +218,9 @@ ul li,
 
     padding: 3rem;
 }
+.newsletter-container2{
+    margin-top: 155px;
+}
 
 input {
     margin: 0.5rem;
@@ -236,33 +242,65 @@ input {
     font-size: 1.2rem;
     font-weight: 800;
 }
-.newsletter-title{
+
+.newsletter-title {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
 }
-.newsletter-des{
+
+.newsletter-des {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
 }
+
+.discount {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    left: 305px;
+    bottom: 207px;
+    transform: rotate(-19.628deg);
+    
+}
+.dis-title{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+.dis-des{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+
 /* newsletter section end */
 /* footer section start */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.10);
-    margin-top: 60px;
+    margin-top: 0;
 }
-.footer-section{
+
+.footer-section {
     width: 872px;
     text-align: center;
     margin: 0 auto;
     padding-top: 20px;
 }
-.footer-des{
+
+.footer-des {
     padding-bottom: 50px;
     padding-top: 30px;
 }
-.social{
+
+.social {
     padding: 30px;
 }
 
@@ -272,6 +310,14 @@ footer{
 /* Media Query Section*/
 @media screen and (max-width:576px) {
 
-    /* banner section */
-    .input-container {}
+    /* destination section */
+    .choose-title,.choose-des{
+        text-align: center;
+        width: auto;
+    }
+    .mal-indo,.sri-north-kas,.bang-ban{
+        flex-direction: column;
+        align-items: normal;
+    }
+    
 }
