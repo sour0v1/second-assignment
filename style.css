@@ -123,7 +123,9 @@ ul li,
 /* destination section end */
 
 /* Choose Section start */
-
+.choose-section{
+    margin: 0 auto;
+}
 .choose-container {
     display: flex;
     justify-content: center;
@@ -131,6 +133,7 @@ ul li,
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 6.25rem;
+
 }
 
 .choose-title,
@@ -205,7 +208,7 @@ ul li,
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-   display: none;
+  
 
 }
 
@@ -328,6 +331,8 @@ select,
     text-align: center;
     height: 500px;
     border-radius: 10px;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .banner-title {
@@ -388,7 +393,20 @@ select,
     .nav-menu {
         flex-direction: column;
     }
+    /* banner section */
+    .banner-section{
+        width: auto;
+    }
+    .banner-title{
+        font-size: inherit;
 
+    }
+    .banner-des{
+        width: auto;
+    }
+    .banner-input-container{
+        flex-direction: column;
+    }
     /* tour section */
     .tour-section {
         flex-direction: column;
@@ -451,6 +469,13 @@ select,
 
     .discount {
         left: 175px;
+    }
+    .newsletter-container1{
+        width: auto;
+        padding: 0px;
+    }
+    .newsletter-container2{
+        margin-top: 10px;
     }
 
     /* footer section */
