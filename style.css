@@ -6,7 +6,7 @@
 }
 
 body {
-    
+
     margin: 0 auto;
     border: 2px solid chocolate;
 
@@ -54,81 +54,6 @@ span {
 }
 
 /* Nav bar end */
-/* Banner Section Start */
-.banner {
-    background-image: url(Images/header-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1440px;
-    height: 550px;
-    border-radius: 1rem;
-    margin: 0 auto;
-    display: none;
-}
-
-.input-container {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid gray;
-    padding: 10px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    margin: 0rem 11.6rem 0rem 11.6rem;
-}
-
-.input-container img {
-    width: 1.5rem;
-    width: 1.5rem;
-    color: rgba(19, 19, 24, 0.7);
-    background-color: #FFF;
-    padding: 10px;
-
-}
-
-.banner .banner-title,
-.banner-des {
-    text-align: center;
-}
-
-.banner-title {
-    padding-top: 7.5rem;
-    color: #fff;
-    font-size: 4rem;
-    font-weight: 800;
-}
-
-.banner-des {
-    padding: 10px 0px 30px 0px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-input,
-button {
-
-    background-color: #fff;
-    padding: 10px;
-    border: 0;
-}
-
-.input1 {
-    display: flex;
-}
-
-button {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 700;
-    background: #FF5400;
-}
-
-.input1 .btn {
-    background-color: #FF5400;
-    color: #FFF;
-}
-
-/* Banner Section end */
 
 /* Choose Section start */
 
@@ -142,7 +67,8 @@ button {
 }
 
 .choose-title,
-.choose-des,.price {
+.choose-des,
+.price {
     text-align: center;
 }
 
@@ -174,37 +100,44 @@ button {
     background: rgba(233, 68, 68, 0.05);
     padding: 1rem;
     margin: 0 auto;
-    
+
 }
-.choose-title{
+
+.choose-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-    
+
 }
-.choose-des{
+
+.choose-des {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
     width: 643px;
     margin: 0 auto;
 }
-.pri-head{
+
+.pri-head {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
 }
-.pri-des{
+
+.pri-des {
     color: #5A5A5D;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 /* destination section start */
-.destination-section{
+.destination-section {
     margin-top: 6.25rem;
 }
-.mal-indo,.sri-north-kas,.bang-ban{
+
+.mal-indo,
+.sri-north-kas,
+.bang-ban {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -212,48 +145,111 @@ button {
     align-items: center;
 
 }
-.mal-indo{
+
+.mal-indo {
     margin-top: 3rem;
 }
-/* 
-.maldives{
-    background-image: url(Images/maldives.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    width: 100%;
+
+/* destination section end */
+/* destination section start */
+.tour-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 6.25rem 0rem 6.25rem 0rem;
 }
-.indonesia{
-    background-image: url(Images/indonesia.png);
-    background-repeat: no-repeat;
+
+.tour-container1 {
+    width: 577px;
+    padding-bottom: 2.5rem;
 }
-.srilanka{
-    background-image: url(Images/srilanka.png);
-    background-repeat: no-repeat;
+
+ul li,
+.tour-des {
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
 }
-.north{
-    background-image: url(Images/north-america.png);
-    background-repeat: no-repeat;
+
+.tour-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
-.kashmir{
-    background-image: url(Images/kashmir.png);
-    background-repeat: no-repeat;
+
+.tour-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
 }
-.bd{
-    background-image: url(Images/bangladesh.png);
-    background-repeat: no-repeat;
+
+.pri-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: 0;
 }
-.bandarban{
-    background-image: url(Images/bandarban.png);
-    background-repeat: no-repeat;
-} */
+
+/* tour section end */
+/* newsletter section start */
+.newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.newsletter-container1 {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+
+    padding: 3rem;
+}
+
+input {
+    margin: 0.5rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    border: 0;
+    padding: 1rem 0.5rem;
+}
+
+.news-btn {
+    margin: 0.5rem;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 410px;
+    border: 0;
+    padding: 1rem 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.newsletter-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.newsletter-des{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* newsletter section end */
+
+
 
 
 /* Media Query Section*/
 @media screen and (max-width:576px) {
 
     /* banner section */
-    .input-container {
-        flex-direction: column;
-        margin: 0px;
-    }
+    .input-container {}
 }
