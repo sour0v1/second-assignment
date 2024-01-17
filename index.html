@@ -10,8 +10,11 @@
 
 <body>
     <header>
+        
+        
+
         <!-- Nav bar start -->
-        <nav>
+        <nav class="hide">
             <div class="logo">
                 <img class="logo-img" src="Images/Group 40071 (2).png" alt="">
                 <h2 class="logo-name">A2Z <span>Travel</span></h2>
@@ -26,8 +29,30 @@
         </nav>
         <!-- Nav bar end -->
 
+        <!-- banner section start -->
+        <section class="banner-section">
+            <h2 class="banner-title">Explore Your Travel</h2>
+            <p class="banner-des">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+
+            <div class="banner-input-container">
+                <input class="banner-input" type="text" placeholder="Where go">
+
+                <select id="fruit" name="fruit">
+                    <option value="apple">When</option>
+                </select>
+                <select id="fruit" name="fruit">
+                    <option value="apple">When</option>
+                </select>
+                <div class="ban-btn">
+                    <img class="search-icon" src="Images/search-interface-symbol_54481.png" alt="">
+                    <p class="find">Find Now</p>
+                </div>
+            </div>
+        </section>
+        <!-- banner section end -->
+
         <!-- tour section start -->
-        <section class="tour-section">
+        <section class="tour-section hide">
             <div class="tour-container1">
                 <h2 class="tour-title">Our Popular Tours</h2>
                 <p class="tour-des">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -55,7 +80,7 @@
         <!-- tour section end -->
 
         <!-- destination section start -->
-        <section class="destination-section">
+        <section class="destination-section hide">
             <h2 class="choose-title">Choose Your Destination</h2>
             <p class="choose-des">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
                 Sodales dictumst nec nibh pellentesque.</p>
@@ -77,7 +102,7 @@
 
         <main>
             <!-- Choose section start -->
-            <section class="choose-section">
+            <section class="choose-section hide">
                 <h2 class="choose-title">Why Choose Us</h2>
                 <p class="choose-des">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
                     Sodales dictumst nec nibh pellentesque.</p>
@@ -109,18 +134,18 @@
                         commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                 </div>
             </section>
-           
+
             <!-- choose section end -->
-            
-            
+
+
             <!-- newsletter section start -->
-            <section class="newsletter-section">
+            <section class="newsletter-section hide">
                 <div class="newsletter-container1">
                     <h3 class="newsletter-title">Newsletter</h3>
                     <p class="newsletter-des">Get your daily dose of travel news & tips. <br> Sign up today!</p>
                     <hr>
-                    <input type="text" placeholder="Enter your name"><br>
-                    <input type="email" placeholder="Enter your email"><br>
+                    <input class="news-input" type="text" placeholder="Enter your name"><br>
+                    <input class="news-input" type="email" placeholder="Enter your email"><br>
                     <button class="news-btn">Subscribe</button>
                 </div>
                 <div class="newsletter-container2">
@@ -137,10 +162,11 @@
         </main>
         <!-- footer section start -->
         <footer>
-            <div class="footer-section">
+            <div class="footer-section hide">
                 <img class="logo-img" src="Images/Group 40071 (2).png" alt="">
                 <h2 class="logo-name">A2Z <span>Travel</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate.
+                    Leo erat maecenas vitae elementum ultricies nullam. </p>
                 <img class="social" src="Images/Social.svg" alt="">
                 <hr>
                 <p class="footer-des">2017, All Rights Reserved.</p>

@@ -2,10 +2,11 @@
 
 * {
     font-family: 'Mulish', sans-serif;
-   
+
 }
-body{
-        margin: 0 auto;
+
+body {
+    margin: 0 auto;
 }
 
 /* Nav bar start */
@@ -204,8 +205,8 @@ ul li,
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    display: none;
-    
+   display: none;
+
 }
 
 .newsletter-container1 {
@@ -220,7 +221,7 @@ ul li,
     margin-top: 155px;
 }
 
-input {
+.news-input {
     margin: 0.5rem;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -282,6 +283,7 @@ input {
 }
 
 /* newsletter section end */
+
 /* footer section start */
 footer {
     background: rgba(19, 19, 24, 0.10);
@@ -306,13 +308,87 @@ footer {
 
 
 
+/* banner section start */
+
+select,
+.banner-input {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.banner-section {
+    background-image: url(Images/header-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 60px;
+
+}
+
+.banner-des {
+    width: 676px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-input-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    margin: 0px 185px 0px 185px;
+
+}
+
+.ban-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+
+
+
 /* Media Query Section*/
 @media screen and (max-width:576px) {
 
     /* nav bar */
-    nav,.nav-menu{
+    nav,
+    .nav-menu {
         flex-direction: column;
     }
+
     /* tour section */
     .tour-section {
         flex-direction: column;
@@ -331,11 +407,11 @@ footer {
 
     .tour-container2 img {
         width: 100%;
-    } 
+    }
 
-    
-     /* destination section */
-     .choose-title,
+
+    /* destination section */
+    .choose-title,
     .choose-des {
         text-align: center;
         width: auto;
@@ -346,8 +422,8 @@ footer {
     .bang-ban {
         flex-direction: column;
         align-items: normal;
-    }  
-    
+    }
+
 
     /* choose section */
     .choose-container {
@@ -367,7 +443,8 @@ footer {
         flex-direction: column;
     }
 
-    .newsletter-container1,.newsletter-container2 {
+    .newsletter-container1,
+    .newsletter-container2 {
         max-width: 576px;
         text-align: center;
     }
