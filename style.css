@@ -24,7 +24,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: auto 1.5rem;
-    display: none;
+
 }
 
 .nav-menu li {
@@ -218,7 +218,8 @@ ul li,
 
     padding: 3rem;
 }
-.newsletter-container2{
+
+.newsletter-container2 {
     margin-top: 155px;
 }
 
@@ -266,15 +267,17 @@ input {
     left: 305px;
     bottom: 207px;
     transform: rotate(-19.628deg);
-    
+
 }
-.dis-title{
+
+.dis-title {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
     margin: 0;
 }
-.dis-des{
+
+.dis-des {
     color: #fff;
     font-size: 2rem;
     font-weight: 800;
@@ -310,38 +313,73 @@ footer {
 /* Media Query Section*/
 @media screen and (max-width:576px) {
 
+    /* nav bar */
+    nav,.nav-menu{
+        flex-direction: column;
+    }
+    /* tour section */
+    .tour-section {
+        flex-direction: column;
+    }
+
+    .tour-container1 {
+        width: auto;
+        text-align: center;
+    }
+
+    .tour-title,
+    .tour-des,
+    ul li {
+        text-align: center;
+    }
+
+    .tour-container2 img {
+        width: 100%;
+    }
+
     /* destination section */
-    .choose-title,.choose-des{
+    .choose-title,
+    .choose-des {
         text-align: center;
         width: auto;
     }
-    .mal-indo,.sri-north-kas,.bang-ban{
+
+    .mal-indo,
+    .sri-north-kas,
+    .bang-ban {
         flex-direction: column;
         align-items: normal;
     }
-    
+
     /* choose section */
-    .choose-container{
+    .choose-container {
         flex-direction: column;
         text-align: center;
     }
-    .hotel, .map, .price {
+
+    .hotel,
+    .map,
+    .price {
         width: auto;
         height: auto;
     }
+
     /* newsletter section */
-    .newsletter-section{
+    .newsletter-section {
         flex-direction: column;
     }
-    .newsletter-container1{
+
+    .newsletter-container1 {
         width: auto;
         text-align: center;
     }
-    .discount{
+
+    .discount {
         left: 175px;
     }
+
     /* footer section */
-    .footer-section{
+    .footer-section {
         width: auto;
     }
 }
